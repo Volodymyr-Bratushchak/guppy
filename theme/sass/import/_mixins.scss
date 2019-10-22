@@ -1,0 +1,15 @@
+@mixin media($w) {
+  @media only screen and (max-width: $w) {
+    h1 {
+      background: orange;
+    }
+  };
+}
+
+@mixin block_styles($bg, $cl, $fz) {
+  a {
+    background: $bg ;
+    color: $cl ;
+    font-size: $fz ;
+  }
+}
