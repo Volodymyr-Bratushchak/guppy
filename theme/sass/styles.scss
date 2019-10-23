@@ -1,21 +1,18 @@
 @import 'imports';
 
-@include media($lg, 10000px){
-  @include block_styles(green, red, 100px)
-};
-
-@include media($md, $lg){
-  @include block_styles(green, red, 100px)
+@include media(100px, $sm){
+  @include block_styles($red, $green, 50px)
 };
 
 @include media($sm, $md){
   @include block_styles(red, green, 70px)
 };
 
-
-@include media(200px, $sm){
-  @include block_styles($red, $green, 50px)
+@include media($md, $lg){
+  @include block_styles(green, red, 100px)
 };
 
-
+@include media($lg, 10000px){
+  @include block_styles(black, red, 150px)
+};
 
