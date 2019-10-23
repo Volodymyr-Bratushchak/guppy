@@ -1,8 +1,23 @@
-@media only screen and (max-width: 1000px) {
-  h1 {
-    background: orange; } }
+@media only screen and (min-width: 959px) and (max-width: 10000px) {
+  a {
+    background: green;
+    color: red;
+    font-size: 100px; } }
 
-a {
-  background: #dc3545;
-  color: #28a745;
-  font-size: 50px; }
+@media only screen and (min-width: 719px) and (max-width: 960px) {
+  a {
+    background: green;
+    color: red;
+    font-size: 100px; } }
+
+@media only screen and (min-width: 539px) and (max-width: 720px) {
+  a {
+    background: red;
+    color: green;
+    font-size: 70px; } }
+
+@media only screen and (min-width: 199px) and (max-width: 540px) {
+  a {
+    background: #dc3545;
+    color: #28a745;
+    font-size: 50px; } }

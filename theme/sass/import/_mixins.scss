@@ -1,8 +1,6 @@
-@mixin media($w) {
-  @media only screen and (max-width: $w) {
-    h1 {
-      background: orange;
-    }
+@mixin media($min, $max) {
+  @media only screen and (min-width: $min - 1px) and (max-width: $max){
+    @content;
   };
 }
 
